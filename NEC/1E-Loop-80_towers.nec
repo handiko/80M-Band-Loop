@@ -5,10 +5,18 @@ SY A=30
 SY H=20
 SY W=23.78773
 SY wrad=1*1e-3
-GW	1	15	0	W/2	A	0	-W/2	A	wrad
-GW	2	15	0	W/2	A-H	0	-W/2	A-H	wrad
-GW	3	15	0	W/2	A	0	W/2	A-H	wrad
-GW	4	15	0	-W/2	A	0	-W/2	A-H	wrad
+GW	1	15	0	W/2	A	0	-W/2	A
+GC	0	0	1	wrad	wrad
+GW	2	15	0	W/2	A-H	0	-W/2	A-H
+GC	0	0	1	wrad	wrad
+GW	3	15	0	W/2	A	0	W/2	A-H
+GC	0	0	1	wrad	wrad
+GW	4	15	0	-W/2	A	0	-W/2	A-H
+GC	0	0	1	wrad	wrad
+GW	5	20	0	-24	0	0	-24	33
+GC	0	0	1	0.5	0.15
+GW	6	20	0	24	0	0	24	33
+GC	0	0	1	1	0.15
 GE	1
 LD	5	0	0	0	58000000
 GN	2	0	0	0	13	0.005
