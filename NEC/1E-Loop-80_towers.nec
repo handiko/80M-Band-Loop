@@ -3,7 +3,7 @@ CE
 SY freq=3.53
 SY A=30
 SY H=20
-SY W=23.78773
+SY W=23.93143
 SY wrad=1*1e-3
 GW	1	15	0	W/2	A	0	-W/2	A
 GC	0	0	1	wrad	wrad
